@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ocean Research Station</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <h1 class="header-title">Ocean Research Station</h1>
+            <p class="header-text">Explore the ocean and discover marine life</p>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="species">
+            <div class="container">
+
+                <h2 class="section-title">Discovered Species</h2>
+
+                <button class="species-btn">
+                    🔍 Discovered species: <span id="counter">0</span>
+                </button>
+
+                <div class="cards">
+
+                    <div class="card ">
+                        <img src="./images/Clownfish swimming in an anemone.png" alt="Clownfish">
+                        <h3>Clownfish</h3>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/Octopus underwater.png" alt="Octopus">
+                        <h3>Octopus</h3>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/Jellyfish glowing.png" alt="Jellyfish">
+                        <h3>Jellyfish</h3>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/Shark.png" alt="Shark">
+                        <h3>Shark</h3>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/Img - Sea turtle swimming_margin.png" alt="Sea Turtle">
+                        <h3>Sea Turtle</h3>
+                    </div>
+
+                    <div class="card">
+                        <img src="./images/Img - Stingray gliding_margin.png" alt="Stingray">
+                        <h3>Stingray</h3>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="depths">
+
+            <div class="container">
+
+                <h2 class="section-title">
+                    Explore Ocean Depths
+                </h2>
+
+                <div class="depth-buttons">
+
+                    <button class="depth active">Surface (0m)</button>
+                    <button class="depth">Twilight Zone (~500m)</button>
+                    <button class="depth">Abyss (~1000m)</button>
+                    <button class="depth">Mariana Trench (>10000m)</button>
+
+                </div>
+
+                <div class="depth-card">
+
+                    <div class="depth-info">
+
+                        <span class="tag">Depth: 0 m</span>
+
+                        <h2>The Sunlit Surface</h2>
+
+                        <p>
+                            The pelagic zone receives ample sunlight,
+                            fueling photosynthesis and supporting
+                            the majority of oceanic life including
+                            playful dolphins and colorful fish.
+                        </p>
+
+                        <span class="depth-range">
+                            0m Depth Range
+                        </span>
+
+                    </div>
+
+                    <div class="depth-image">
+
+                        <img src="./images/Illustration of a sunlit ocean surface with waves, a leaping dolphin, and a small crab on a floating log, flat modern vector style.png"
+                            alt="Ocean">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-wrapper">
+
+            
+            <h4 class="footer-title">Ocean Research Station</h4>
+            <p class="footer-description">Educational project for kids</p>
+            <p class="rights">
+                © 2026 Ocean Research Station • Built for The Buoyant Laboratory
+            </p>
+        </div>
+            <div class="footer-links">
+                <ul class="footer-list">
+                    <li class="list-item">
+                        <a href="#" class="item-link">Research Data</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="item-link">Safety Protocol</a>
+                    </li>
+                    <li class="list-item"><a href="#" class="item-link">Privacy</a></li>
+                    <li class="list-item"><a href="#" class="item-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
